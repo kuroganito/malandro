@@ -1,0 +1,83 @@
+  <ion-content scroll="false" padding="true" class="malandro-background">
+	  <ion-slide-box class="full-heigth">
+	    <ion-slide>
+	     <h1 class="malandro-font text-center padding-1em">{{'TITLE-SLIDE-1' | translate }}</h1>	
+	     <div class="text-center">
+	     	<img height="180" src="images/main-malandro.png"/>	
+	     </div>
+	     <div class="dark-container absolute-16-3 malandro-font">
+	     	<span>{{'SLIDE-1' | translate }} </span>
+	     </div>
+	    </ion-slide>
+	    <ion-slide ng-repeat="slide in [2,3,4]">
+	       	<h1 class="malandro-font text-center padding-0_5em">{{'TITLE-SLIDE-'+slide | translate }}</h1>	
+			<div class="dark-container absolute-6-3 malandro-font">
+				<span>{{'SLIDE-'+slide | translate }} </span>
+				<div class="text-center margin-1em">
+					<img width="150" src="images/help/splash-help-{{slide-1}}.png"/>	 
+				</div>
+				<span>{{'SLIDE-'+slide+'-B' | translate }} </span>
+			</div>
+	    </ion-slide>
+	    <ion-slide>
+	       	<h1 class="malandro-font text-center padding-0_5em">{{'TITLE-SLIDE-5' | translate }}</h1>	
+			<div class="padding-0_5em dark-container absolute-6-3 malandro-font ">
+				<div class="row text-center">
+				  	<div class="col">
+				  		<span>{{'ROBO' | translate }} </span>
+						<div class="text-center margin-0_5em">
+							<img width="60" src="images/robo.png"/>	 
+						</div>
+					</div>
+				  	<div class="col">
+				  		<span>{{'AGRESION' | translate }} </span>
+						<div class="text-center margin-0_5em">
+							<img width="60" src="images/agresion.png"/>	 
+						</div>
+				  	</div>
+  				</div>
+				<div class="row text-center">
+				  	<div class="col">
+				  		<span>{{'SEXUAL' | translate }} </span>
+						<div class="text-center margin-0_5em">
+							<img width="60" src="images/sexual.png"/>	 
+						</div>
+				  	</div>
+				  	<div class="col">
+				  		<span>{{'ENFRENTAMIENTOS' | translate }} </span>
+						<div class="text-center margin-0_5em">
+							<img width="60" src="images/enfrentamientos.png"/>	 
+						</div>
+				  	</div>
+  				</div>
+				<div class="row text-center">
+				  	<div class="col">
+				  		<span>{{'PANDILLAS' | translate }} </span>
+						<div class="text-center margin-0_5em">
+							<img width="60" src="images/pandillas.png"/>	 
+						</div>
+				  	</div>
+				  	<div class="col">
+				  		<span>{{'SIN-LUZ' | translate }} </span>
+						<div class="text-center margin-0_5em">
+							<img width="60" src="images/sin-luz.png"/>	 
+						</div>
+				  	</div>
+  				</div>
+
+				
+			</div>
+	    </ion-slide>
+	    <ion-slide>
+	    	<h1 class="malandro-font text-center padding-0_5em">{{'TITLE-SLIDE-5' | translate }}</h1>	
+			<div class="padding-0_5em dark-container absolute-6-3 malandro-font ">
+		    	<div class="text-center bottom-1em malandro-font">
+			    	<button ng-click="goMap()" class=" button button-clear button-light malandro-font">
+		  				{{'COMENZAR' | translate}}
+					</button>
+				</div>
+			</div>
+		</ion-slide>
+	    	
+	  </ion-slide-box>
+  </ion-content>

@@ -1,0 +1,20 @@
+<ion-content padding="true" scroll="false" class="malandro-background ">
+	<h1 class="malandro-font text-center">{{ 'TITULO-IDIOMA' | translate }}</h1>
+	<div class="dark-container absolute-5-1 malandro-font">
+		<div ng-class="enClass" class="text-center margin-1em-tb font-1_5em" ng-click="setEnglish()">
+			<img src="images/languages/en-language.jpg"/>
+			<span>{{ 'IDIOMA-INGLES' | translate }} </span>	
+		</div>
+		<div ng-class="esClass" class="text-center margin-1em-tb font-1_5em" ng-click="setSpanish()">
+			<img src="images/languages/es-language.jpg"/>
+			<span>{{ 'IDIOMA-ESPANOL' | translate }} </span>
+		</div>
+		<div class="text-center bottom-1em malandro-font">
+			<button ng-click="saveLanguage()" class=" button button-clear button-light malandro-font">
+  			{{'ELEGIR' | translate}}
+		</button>	
+		</div>
+		
+	</div>   
+
+</ion-content>

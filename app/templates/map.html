@@ -1,0 +1,11 @@
+<ion-content  scroll="false">
+	<div class="full-heigth" data-tap-disabled="true">
+		<div google-map center="map.center" zoom="map.zoom" control="map.control" events='map.events'  options="map.options" draggable='true' >
+			<markers models="map.markers" events='map.markerEvents'  coords="'self'"  doCluster="true" clusterOptions='map.clusterOptions'>
+				
+			</markers>
+		</div>	
+	</div>
+
+	<a id="newReport" class="button button-icon button-large ion-android-location" ng-class="{'focus-icon':markNewReportSet}" ng-click="newReport()"></a>
+</ion-content>

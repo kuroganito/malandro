@@ -1,0 +1,164 @@
+/* Your app's CSS, go crazy, make it your own */
+@font-face{font-family:'MalandroFont';src: url('../fonts/trixieplain.ttf') format('truetype');font-weight:normal;font-style:normal;}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++*/
+.font-1_5em{
+  font-size: 1.5em;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++*/
+.margin-0_5em{
+  margin: .5em;
+}
+
+
+.margin-1em{
+  margin: 1em;
+}
+.margin-1em-tb{
+  margin:1em 0 ;
+}
+
+.margin-2em{
+  margin: 2em;
+}
+.margin-3em{
+  margin: 3em;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++*/
+
+.padding-0_5em{
+  padding: .5em!important;
+}
+
+.padding-1em{
+  padding: 1em;
+}
+.padding-2em{
+  padding: 2em;
+}
+.padding-3em{
+  padding: 3em;
+}
+
+
+.full-heigth{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  top: 0; 
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++*/
+
+.bottom-1em{
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+  right: 0;  
+}
+
+.dark-container{
+    position: absolute;
+    background: rgba(44,44,44,1);
+    border-radius: 1em;
+    color: white;
+    padding: 1.5em;
+    font-size: 1.4em;
+    text-align: justify!important;
+}
+
+.absolute-5-1{
+  left: 1em;
+  bottom: 1em;
+  right: 1em;
+  top: 5em;
+}
+
+.absolute-6-3{
+  left: 1em;
+  bottom: 3em;
+  right: 1em;
+  top: 6em;
+}
+
+.absolute-16-3{
+  left: 1em;
+  bottom: 3em;
+  right: 1em;
+  top: 16em;
+}
+
+.malandro-background{
+  background: rgba(168,168,168,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%, rgba(146,141,146,1) 73%, rgba(102,102,102,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(168,168,168,1)), color-stop(73%, rgba(146,141,146,1)), color-stop(100%, rgba(102,102,102,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%, rgba(146,141,146,1) 73%, rgba(102,102,102,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%, rgba(146,141,146,1) 73%, rgba(102,102,102,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%, rgba(146,141,146,1) 73%, rgba(102,102,102,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(168,168,168,1) 0%, rgba(146,141,146,1) 73%, rgba(102,102,102,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a8a8', endColorstr='#666666', GradientType=1 );
+}
+
+.malandro-font{
+    font-family:'MalandroFont'!important;
+}
+
+.selected{
+  border: 1.5px solid rgba(168,168,168,1);
+  padding: 0.5em;
+  border-radius:1em ;
+}
+
+.angular-google-map, .angular-google-map-container { 
+  height: 100% !important; 
+}
+
+.textCluster{
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 5px;
+  left: 12px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.textCluster span{
+  position: relative;
+  top:-16px;
+  }
+
+#newReport{
+  font-size: 30px!important;
+  position: absolute;
+  right: 5px;
+  width: 60px;
+  bottom: 0;
+  z-index: 10;
+  }
+
+.button-report{
+  font-size: 13px;
+  min-width: 100px;
+  min-height: 115px;
+  padding: 8px;
+  line-height: 20px;
+  border-radius: 16px!important;
+}
+
+.button-report img{
+  height: 50px;
+}
+
+.focus-icon{
+  bbackground: rgba(248,80,50,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(231,56,39,0) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(248,80,50,1)), color-stop(100%, rgba(231,56,39,0)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(231,56,39,0) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(231,56,39,0) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(231,56,39,0) 100%);
+  background: radial-gradient(ellipse at center, rgba(248,80,50,1) 0%, rgba(231,56,39,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
+  border-radius: 50%;
+}
